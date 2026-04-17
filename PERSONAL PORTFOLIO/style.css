@@ -1,0 +1,299 @@
+
+body {
+    background-color: #FFFFFF;
+}
+
+.topnav {
+    background-color: #E8A736;
+    padding: 20px 20px 20px 20px;
+}
+
+.topnav h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FAEFD9;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.topnav p {
+    margin:15px 0 15px 0;
+    color: #FAEFD9;
+    text-align: center;
+    font-size: 30px;
+}
+
+.topnav img {
+    width: 60px;
+    height: 60px;
+}
+
+.topnav div{
+    text-align: center;
+}
+
+.topnav a {
+    font-size: 20px;
+    color: #FAEFD9;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+}
+
+.navbar {
+    background-color: #E8A736;
+    border: #FAEFD9 4px solid;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+}
+
+#Projects {
+    border: 1px solid #E8A736;
+}
+
+#Projects h5 {
+    padding: 1px;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Projects p {
+    border-top: 2px solid #E8A736;
+    padding: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Work {
+    padding: 5px;
+    border: 1px solid #E8A736;
+}
+
+#Work h5 {
+    padding: 1px;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Work p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#Education {
+    padding: 5px;
+    border: 1px solid #E8A736;
+}
+
+#Education h5 {
+    padding: 1px;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Education p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container div {
+    background-color: #FAEFD9;
+    border: #E8A736 4px solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h6 {
+    text-align: center;
+}
+
+.PWE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.PWE div {
+    background-color: #FAEFD9;
+    border: 2px solid #E8A736;
+    padding: 25px;
+
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAEFD9;
+    align-items: center;
+    border-radius: 20px;
+    border: #E8A736 solid 4px;
+    margin: 15px 75px 15px 75px;
+    padding: 10px;
+}
+.contacts h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+}
+.contacts div{
+    margin: 10px 5px 10px 5px;
+}
+
+.fname{
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.fname h4{
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+.lname{
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.lname h4{
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+.email{
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.email h4{
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+.message{
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.message h4{
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+
+.submit{
+    align-content: center;
+}
+.submit button{
+    background-color: #E8A736;
+    padding: 1px;
+    border: 1px solid #E8A736;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    color: #FAEFD9;
+    font-size: 16px;
+
+}
+
+.submit:hover{
+    background-color: #E8A736;
+    border: #E8A736 2px solid;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.contacts .fname input{
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+}
+.contacts .lname input{
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+}
+.contacts .email input{
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+
+}
+.contacts .message textarea{
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+}
+.contacts input::placeholder{
+    padding: 20px;
+}
+.contacts textarea::placeholder{
+    padding: 5px 25px 5px 25px;
+}
+.contacts input{
+    margin-right: 50px;
+}
+
+@media (min-width: 768px) {
+    .PWE {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid #E8A736;
+    }
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Rosarivo', cursive;
+        font-style: normal;
+    }
+
+    .topnav p {
+        margin:10px 0 10px 0;
+        color: #FAEFD9;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+}
+
+
