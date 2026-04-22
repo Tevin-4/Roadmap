@@ -1,0 +1,298 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #E8A736;
+    padding: 5px;
+}
+
+.topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FAEFD9;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+}
+
+.navbar {
+    background-color: #E8A736;
+    border: #FAEFD9 4px solid;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+}
+
+.topnav img {
+    width: 60px;
+    height: 60px;
+}
+
+.topnav p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 15px 0;
+    color: #FAEFD9;
+    text-align: center;
+    font-size: 30px;
+}
+
+.changelog {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAEFD9;
+    border: 2px solid #E8A736;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.changelog h2 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sub {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.view {
+    text-align: center;
+}
+
+.view button {
+    font-family: "Comic Sans MS", cursive;
+    background-color: #E8A736;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid #E8A736;
+    border-radius: 20px;
+}
+
+.view button:hover {
+    background-color: white;
+    color: #E8A736;
+}
+
+.timeline {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+}
+
+.timeline .date {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #E8A736;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.timeline .content {
+    font-family: "Comic Sans MS", cursive;
+    padding: 20px 20px 5px 5px;
+    border-left: 2px solid #E8A736;
+    margin-left: 95px;
+}
+
+.timeline .date:hover {
+    background-color: white;
+    border: 2px solid #E8A736;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAEFD9;
+    align-items: center;
+    border-radius: 20px;
+    border: #E8A736 solid 4px;
+    margin: 15px 30px 15px 30px;
+    padding: 10px;
+}
+
+.contacts h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.contacts div {
+    margin: 10px 5px 10px 5px;
+}
+
+.fname {
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.fname h4 {
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+
+.lname {
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.lname h4 {
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+
+.email {
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.email h4 {
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+
+.message {
+    border: #E8A736 2px solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.message h4 {
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+
+.submit {
+    align-content: center;
+}
+
+.submit button {
+    background-color: #E8A736;
+    padding: 1px;
+    border: 1px solid #E8A736;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    color: #FAEFD9;
+    font-size: 16px;
+
+}
+
+.submit:hover {
+    background-color: #E8A736;
+    border: #E8A736 2px solid;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.contacts .fname input {
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+}
+
+.contacts .lname input {
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+}
+
+.contacts .email input {
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+
+}
+
+.contacts .message textarea {
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    padding: 10px;
+}
+
+.contacts input::placeholder {
+    padding: 20px;
+}
+
+.contacts textarea::placeholder {
+    padding: 5px 25px 5px 25px;
+}
+
+.contacts input {
+    margin-right: 50px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        float: right;
+        background-color: #E8A736;
+        border: #FAEFD9 4px solid;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        gap: 5px;
+        padding: 15px 20px 15px 20px;
+        border-radius: 15px;
+    }
+
+    .topnav img {
+        float: left;
+        width: 60px;
+        height: 60px;
+    }
+
+    .changelog {
+        display: flex;
+        flex-direction: column;
+        background-color: #FAEFD9;
+        border: 2px solid #E8A736;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+    }
+}
